@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "datalab-205719",
+  "private_key_id": "f462fca52f35eb36c66861f53cdd0dddc540f6a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCrkjktfJEKE+O\nyaGwZFupQIIGKWrpi9JXYeOmMJcYi6PUtn9FTiJtYYp/JnVhkhCRvidmQi8NvbE7\nJPCdHRFjkt7eK/1Pyjk6fLDAqec0MMi+Jp+hKvjlekt3grBeskVz3rjsjc96nxZU\n8GXATogOMePeJV59X02m2BPQgkyOUbS9N9NHkch5XKefA9VpBPlIMEfIMNz0Qglr\ni2ivqgDaTIKX5g60nvWyOup5yc0BoXpNC5v+hNd1237vVaAcn/oNPaB3LxFCf93T\n9CLaO08E7eekhlVkp3pzINR+CPom2uxDnmKp3BLm+18+tS8umUcLUKpgExevmGsY\nqilYyef1AgMBAAECggEAF0lwLDVsXYVB4PdS6S3T/gaalwCYyodgWXX63Fv3EudP\nKUhMKH7cZN+USLnRtCJb64cGoPd9N+RPIR89zdlWhWXh1UsHQaZTmqCkJuOb5ZUJ\nSh+GHCnu/EoY4VqHXMhvwNitH5Sl8wm5Ct93mF18blA+7MllCFOgTvsNQbV4UVSU\nuq7cSxqqMQ9S1a/vKXWuPdSStGdkEEuOlGHkK0REQVu9OQ+vJON+VOsCW3duW92u\nBMLW8tYDCYcv0JecEaERHBrqW4X0Ip9txF3ME+C7/02/te4fxxodbNdm85gphAEC\n+lv0JN8rYoUK6F3vuHFDJ4izB6R3HQaQLf9SIh1/GQKBgQDoA7qfHaRinyGtGIbT\nDE98JI1ubpDGzQBNlPirAWRhzrn0Df4uFs+4rEd0qFKz03ID3L6T4Q0Q4M4HCa6d\nYfiqqdKhJcKNtpzaNFU/Nx+SwJlM00ER9M+4cKkjVC71WWKIsB4uoT5+ZEjztlyb\nituj2fa9hhwhC3e7msxy96QULQKBgQDWzoRIYyRwOLykuIqdjlO1qqzuM6rllFD6\n6ExdfJ7N+enxLNBuhYJCszzzv9qoDLg/McseWSX54kCvwSlcWKGveTtBVaSHxd2h\nJbaIu6GQhdB+YmiANfispVAxZ4kTqfbE3Pilty1XMT8jTuirVevw1uosdFrqaWPH\nc39p1eGX6QKBgEI/dlUiqKKEX6BGRZETjcqbwUqMBYjOVkzQwaRKdHg9B/m42SAd\n4VgQ0SJtQZgZQw/5Qu2EsC9mkU2PJS3JILDSZtMergu63dSsZr7zJW/I0L0QAR94\ncKtwd8sfqXzi9fCjoSqdXfPG/NGh+5VqM8b4YKzDE1sYJCsMS150eYRNAoGAQO1B\nHKQi4myz0FIbS842TSXeiU1CrYvsAjruwh8l3PpaFNTH13AxVDnbBY4K6FqX4joJ\nvA2UJfiWNsl61/fOPzy0hWX+ii9rcwb0KlYUWpunzluuXHpzxLNfDt/Nlgz8krp7\nyZMZeE5hWCnEt+0LmMtNEszEoi/iwemOLI5CVukCgYBQxYZyr7QT76Sa8z/ufyV9\nyuASIPkOVu4cDBHNa3t2g5PoXj2KTp6xUxuFBnbgPk/vzQyYCvrqJINsPx6pwZQB\naMEc9TZSMkb9/jOEewFbBU9N3qNRLUiGkontOM54570SbD+nLMQFedSUjGtSEagw\nk5+VCZvakaRAkbYf/jZUGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "alert-system-web@datalab-205719.iam.gserviceaccount.com",
+  "client_id": "112093082973824875949",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alert-system-web%40datalab-205719.iam.gserviceaccount.com"
+}

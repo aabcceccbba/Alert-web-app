@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+<h1>Hello {{name}}!</h1>
+  <h2>Here is an interesting quote for you: </h2>
+  <p>
+{{quote}}
+  </p>
+
+  <p>
+{{gg}}
+  </p>
+<!--img src="http://www.naturalprogramming.com/images/smilingpython.gif"-->
+</div>
+
+<div class="block2">
+  {% for row_index in range(x['date']|count) %}
+    <tr>
+      <td>{{ x['date'][row_index]|tojson|safe }}</td>
+      <td>{{ x['users'][row_index] }}</td>
+    </tr>
+{% endfor %}
+</div>
+{% endblock %}

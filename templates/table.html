@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            function CheckColors(val){
+                var element = document.getElementById('input_box');
+                if(val=='null')
+                    element.style.display='none';
+                else  
+                    element.style.display='block';
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Alert System</h1>
+
+        <select>
+            <option value="day">From last day</option>
+            <option value="week">From last week</option>
+            <option value="month">From last month</option>
+            <option value="year">From last year</option>
+        </select><br>        
+
+        <select onchange='CheckColors(this.value);'>
+            <option value="null"></option>
+            <option value="ph">PH value</option>
+            <option value="flow rate">Flow rate</option>
+            <option value="elevation">Elevation</option>
+        </select><br>       
+
+        <div id = "input_box" style='display:none;'>
+            The growing threshold is: <input type="text" name="threshold" id="threshold"/>
+        </div>
+
+        <table border=1 cellpadding=7>
+            <tr>
+                <th>Date</th>
+                <th>Reason</th>
+            </tr>
+            {% for obj in rows %}
+            <tr>
+                <td>{{ obj.DATE_TIME }}</td>
+                <td>{{ obj.dr3 }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
